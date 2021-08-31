@@ -89,14 +89,5 @@
       <description>1-1 基础元素    效果 Markdown HTML 快捷键     加租 **加粗** &amp;lt;b&amp;gt;加粗&amp;lt;/b&amp;gt; Ctrl+B   斜体 *斜体* &amp;lt;i&amp;gt;斜体&amp;lt;/i&amp;gt; Ctrl+I   加租斜体 加粗斜体 &amp;lt;b&amp;gt;&amp;lt;i&amp;gt;加粗&amp;lt;/i&amp;gt;&amp;lt;/b&amp;gt; Ctrl+B+I   删除线 ~~删除线~~ &amp;lt;s&amp;gt;删除线&amp;lt;/s&amp;gt; Alt+S   下划线 \ &amp;lt;u&amp;gt;下划线&amp;lt;/u&amp;gt; \    1-2 标题 &amp;lt;!-- 注意#后要空格 --&amp;gt; # 一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题 一级标题 二级标题 三级标题 四级标题 五级标题 六级标题 1-3 分割线 三个或三个以上的 *** 或 --- 或 ___  1-4 列表 &amp;lt;!</description>
     </item>
     
-    <item>
-      <title>书籍示例</title>
-      <link>/sort/article/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/sort/article/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
