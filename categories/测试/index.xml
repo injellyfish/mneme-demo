@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>测试 on Mneme</title>
-    <link>/categories/%E6%B5%8B%E8%AF%95/</link>
+    <link>https://injellyfish.github.io/mneme-demo/categories/%E6%B5%8B%E8%AF%95/</link>
     <description>Recent content in 测试 on Mneme</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language><atom:link href="/categories/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language><atom:link href="https://injellyfish.github.io/mneme-demo/categories/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>测试合集</title>
-      <link>/post/</link>
+      <link>https://injellyfish.github.io/mneme-demo/post/</link>
       <pubDate>Sat, 28 Aug 2021 21:32:38 +0800</pubDate>
       
-      <guid>/post/</guid>
+      <guid>https://injellyfish.github.io/mneme-demo/post/</guid>
       <description>这里是书籍的详细介绍区域，支持加粗、斜体、代码、高亮等样式</description>
     </item>
     

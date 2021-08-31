@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>文本测试 on Mneme</title>
-    <link>/tags/%E6%96%87%E6%9C%AC%E6%B5%8B%E8%AF%95/</link>
+    <link>https://injellyfish.github.io/mneme-demo/tags/%E6%96%87%E6%9C%AC%E6%B5%8B%E8%AF%95/</link>
     <description>Recent content in 文本测试 on Mneme</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language><atom:link href="/tags/%E6%96%87%E6%9C%AC%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language><atom:link href="https://injellyfish.github.io/mneme-demo/tags/%E6%96%87%E6%9C%AC%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>书籍示例</title>
-      <link>/article/</link>
+      <link>https://injellyfish.github.io/mneme-demo/article/</link>
       <pubDate>Sat, 28 Aug 2021 22:48:38 +0800</pubDate>
       
-      <guid>/article/</guid>
+      <guid>https://injellyfish.github.io/mneme-demo/article/</guid>
       <description></description>
     </item>
     

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>测试合集 on Mneme</title>
-    <link>/post/</link>
+    <link>https://injellyfish.github.io/mneme-demo/post/</link>
     <description>Recent content in 测试合集 on Mneme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 28 Aug 2021 21:32:38 +0800</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Aug 2021 21:32:38 +0800</lastBuildDate><atom:link href="https://injellyfish.github.io/mneme-demo/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Html Test</title>
-      <link>/post/html-test/</link>
+      <link>https://injellyfish.github.io/mneme-demo/post/html-test/</link>
       <pubDate>Sat, 28 Aug 2021 21:32:38 +0800</pubDate>
       
-      <guid>/post/html-test/</guid>
+      <guid>https://injellyfish.github.io/mneme-demo/post/html-test/</guid>
       <description>我们可以借助 HTML 来丰富编辑格式。
 2-1 文字颜色&amp;amp;大小 &amp;lt;font size=5px&amp;gt;这是5px的字号&amp;lt;/font&amp;gt; &amp;lt;font color=#33FFFF&amp;gt;这是蓝色的字&amp;lt;/font&amp;gt; &amp;lt;font size=5px color=#33FFFF&amp;gt;这是蓝色的字&amp;lt;/font&amp;gt; 这是5px的字号 这是蓝色的字 这是蓝色的5px字
 2-2 文字上标&amp;amp;下标 这是上标&amp;lt;sup&amp;gt;2&amp;lt;/sup&amp;gt; 这是下标&amp;lt;sub&amp;gt;1&amp;lt;/sub&amp;gt; 这是上标2 这是下标1
@@ -25,10 +25,10 @@
     
     <item>
       <title>Markdown Test</title>
-      <link>/post/mt/</link>
+      <link>https://injellyfish.github.io/mneme-demo/post/mt/</link>
       <pubDate>Sat, 28 Aug 2021 21:16:25 +0800</pubDate>
       
-      <guid>/post/mt/</guid>
+      <guid>https://injellyfish.github.io/mneme-demo/post/mt/</guid>
       <description>1-1 基础元素    效果 Markdown HTML 快捷键     加租 **加粗** &amp;lt;b&amp;gt;加粗&amp;lt;/b&amp;gt; Ctrl+B   斜体 *斜体* &amp;lt;i&amp;gt;斜体&amp;lt;/i&amp;gt; Ctrl+I   加租斜体 加粗斜体 &amp;lt;b&amp;gt;&amp;lt;i&amp;gt;加粗&amp;lt;/i&amp;gt;&amp;lt;/b&amp;gt; Ctrl+B+I   删除线 ~~删除线~~ &amp;lt;s&amp;gt;删除线&amp;lt;/s&amp;gt; Alt+S   下划线 \ &amp;lt;u&amp;gt;下划线&amp;lt;/u&amp;gt; \    1-2 标题 &amp;lt;!-- 注意#后要空格 --&amp;gt; # 一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题 一级标题 二级标题 三级标题 四级标题 五级标题 六级标题 1-3 分割线 三个或三个以上的 *** 或 --- 或 ___  1-4 列表 &amp;lt;!</description>
     </item>
     
