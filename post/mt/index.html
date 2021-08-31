@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Markdown Test - Mneme</title>
+  <meta property="og:title" content="Markdown Test - Mneme">
+  
+  <meta name="twitter:card" content="summary">
+
+  
+    
+  
+
+  
+    
+    <meta property="description" content="这是一段描述">
+    <meta property="og:description" content="这是一段描述">
+    
+  
+
+  
+  
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+  
+  
+
+  
+
+  
+
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/fonts.css" />
+</head>
+
+
+<body class="post">
+  <header class="masthead">
+    <h1><a href="/">Mneme</a></h1>
+
+<p class="tagline">用于中文小说写作的 Hugo 主题</p>
+    <nav class="menu">
+  <input id="menu-check" type="checkbox" hidden/>
+  <label id="menu-label" for="menu-check" class="unselectable" hidden>
+    <span class="icon close-icon">✕</span>
+    <span class="icon open-icon">☰</span>
+    <span class="text">Menu</span>
+  </label>
+  <ul>
+  
+  
+  <li><a href="/">书架</a></li>
+  
+  <li><a href="/categories/">分类</a></li>
+  
+  <li><a href="/tags/">标签</a></li>
+  
+  <li><a href="/index.xml/">订阅</a></li>
+  
+  <li><a style="cursor: pointer;" data-drkmd-toggle>模式</a></li>
+  </ul>
+</nav>
+
+  </header>
+  <article class="main">
+    <header class="title">
+    
+<h1>Markdown Test</h1>
+
+<p class="center">
+    
+        
+        
+        <a href="/post/">测试合集</a>
+        
+    
+      /  2021-08-28
+</p>
+<hr>
+
+    </header>
+
+
+
+
+<div class="post">
+<h3 id="1-1-基础元素">1-1 基础元素</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">效果</th>
+<th style="text-align:center">Markdown</th>
+<th style="text-align:center">HTML</th>
+<th style="text-align:center">快捷键</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><strong>加租</strong></td>
+<td style="text-align:center"><code>**加粗**</code></td>
+<td style="text-align:center"><code>&lt;b&gt;加粗&lt;/b&gt;</code></td>
+<td style="text-align:center">Ctrl+B</td>
+</tr>
+<tr>
+<td style="text-align:center"><em>斜体</em></td>
+<td style="text-align:center"><code>*斜体*</code></td>
+<td style="text-align:center"><code>&lt;i&gt;斜体&lt;/i&gt;</code></td>
+<td style="text-align:center">Ctrl+I</td>
+</tr>
+<tr>
+<td style="text-align:center">加租斜体</td>
+<td style="text-align:center"><code>加粗斜体</code></td>
+<td style="text-align:center"><code>&lt;b&gt;&lt;i&gt;加粗&lt;/i&gt;&lt;/b&gt;</code></td>
+<td style="text-align:center">Ctrl+B+I</td>
+</tr>
+<tr>
+<td style="text-align:center"><del>删除线</del></td>
+<td style="text-align:center"><code>~~删除线~~</code></td>
+<td style="text-align:center"><code>&lt;s&gt;删除线&lt;/s&gt;</code></td>
+<td style="text-align:center">Alt+S</td>
+</tr>
+<tr>
+<td style="text-align:center"><u>下划线</u></td>
+<td style="text-align:center"><code>\</code></td>
+<td style="text-align:center"><code>&lt;u&gt;下划线&lt;/u&gt;</code></td>
+<td style="text-align:center">\</td>
+</tr>
+</tbody>
+</table>
+<h3 id="1-2--标题">1-2  标题</h3>
+<pre><code>&lt;!-- 注意#后要空格 --&gt;
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+</code></pre><h1 id="一级标题">一级标题</h1>
+<h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
+<h4 id="四级标题">四级标题</h4>
+<h5 id="五级标题">五级标题</h5>
+<h6 id="六级标题">六级标题</h6>
+<h3 id="1-3-分割线">1-3 分割线</h3>
+<pre><code>三个或三个以上的 *** 或 --- 或 ___
+</code></pre><hr>
+<h3 id="1-4-列表">1-4 列表</h3>
+<pre><code>&lt;!-- 有序列表 --&gt;
+1. 需要空格
+2. 第二个
+   1. 第三个
+</code></pre><ol>
+<li>需要空格</li>
+<li>第二个
+<ol>
+<li>第三个</li>
+</ol>
+</li>
+</ol>
+<pre><code>&lt;!-- 无序列表 --&gt;
+- 也要空格
+- 你好！
+    - Hello
+</code></pre><ul>
+<li>也要空格</li>
+<li>你好！
+<ul>
+<li>Hello</li>
+</ul>
+</li>
+</ul>
+<pre><code>&lt;!-- 任务列表 --&gt;
+- [ ] 还没完成（中间有空格）
+- [x] 完成了
+</code></pre><ul>
+<li><input disabled="" type="checkbox"> 还没完成（中间有空格）</li>
+<li><input checked="" disabled="" type="checkbox"> 完成了</li>
+</ul>
+<h3 id="1-5-引用">1-5 引用</h3>
+<pre><code>&gt; 需要空格
+&gt; &gt;继续引用
+</code></pre><blockquote>
+<p>需要空格</p>
+<blockquote>
+<p>继续引用</p>
+</blockquote>
+</blockquote>
+<h3 id="1-6-脚注">1-6 脚注</h3>
+<pre><code>这是一段文字[^1]
+[^1]: 这是脚注
+</code></pre><p>这是一段文字<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<h3 id="1-7-表格">1-7 表格</h3>
+<pre><code>|  左对齐   | 居中  |  右对齐 |
+| :----  | :----:  | ----:  |
+| Hello  | World | 你好 |
+</code></pre><table>
+<thead>
+<tr>
+<th style="text-align:left">左对齐</th>
+<th style="text-align:center">居中</th>
+<th style="text-align:right">右对齐</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">这是左对齐的文本</td>
+<td style="text-align:center">这是居中的文本</td>
+<td style="text-align:right">这是右对齐的文本</td>
+</tr>
+</tbody>
+</table>
+<h3 id="1-8-链接">1-8 链接</h3>
+<pre><code>[GitHub]([https://github.com/)
+</code></pre><p><a href="%5Bhttps://github.com/">GitHub</a></p>
+<h3 id="1-9-图片">1-9 图片</h3>
+<pre><code>![](图片地址)
+
+&lt;!-- 建议使用&lt;img src=&quot;&quot;&gt;标签插入图片 --&gt;
+</code></pre><p><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80" alt=""></p>
+<blockquote>
+<p>Photo by <a href="https://unsplash.com/@annapelzer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anna Pelzer</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+</blockquote>
+<h3 id="1-10-代码">1-10 代码</h3>
+<pre><code>`代码内容`
+&lt;!-- 代码块是用```包住代码 --&gt;
+</code></pre><p><code>代码内容</code></p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>这是脚注 <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+</div>
+
+<div class="flip">
+  <div style="text-align: left;">
+    «&nbsp;
+    
+      <span style="color: silver;">上一章</span>
+    
+      </div>
+  <div class="center">
+    
+      
+      
+      -&nbsp;<a href="/post/">目录</a>&nbsp;-
+      
+      
+  </div>
+  <div style="text-align: right;">
+    
+    <a
+      href="/post/html-test/"
+      title="Html Test"
+    >
+      下一章
+    </a>
+    
+    &nbsp;»
+    </div>
+</div>
+  
+
+
+
+<div class="push"></div>
+</article>
+<footer>
+  
+  <div class="copyright">Theme <a href="https://github.com/injellyfish/hugo-theme-mneme">Mneme</a>丨Powered by <a href="https://gohugo.io/">Hugo</a>.</div>
+  
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/drkmd-js/dist/drkmd-js.min.js"></script>
+</body>
+</html>
