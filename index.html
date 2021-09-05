@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <title>Mneme - Mneme</title>
-  <meta property="og:title" content="Mneme - Mneme">
+  <title>Mneme丨Mneme</title>
+  <meta property="og:title" content="Mneme丨Mneme">
   
   <meta name="twitter:card" content="summary">
 
@@ -31,7 +31,6 @@
   <link rel="stylesheet" href="/mneme-demo/css/fonts.css" />
 </head>
 
-
 <body class="home">
   <header class="masthead">
     <h1><a href="/mneme-demo/">Mneme</a></h1>
@@ -45,17 +44,21 @@
     <span class="text">Menu</span>
   </label>
   <ul>
-  
-  
-  <li class="active"><a href="/mneme-demo/">书架</a></li>
-  
-  <li><a href="/mneme-demo/categories/">分类</a></li>
-  
-  <li><a href="/mneme-demo/tags/">标签</a></li>
-  
-  <li><a href="/mneme-demo/index.xml">订阅</a></li>
-  
-  <li><a style="cursor: pointer;" data-drkmd-toggle>模式</a></li>
+    
+    
+    <li class="active"><a href="/mneme-demo/">书架</a></li>
+    
+    <li><a href="/mneme-demo/categories/">分类</a></li>
+    
+    <li><a href="/mneme-demo/tags/">标签</a></li>
+    
+    <li><a href="/mneme-demo/index.xml">订阅</a></li>
+    
+    
+    <li><a style="cursor: pointer;" id="theme-toggle">
+      <span class="theme-toggle-light none">黑夜</span>
+      <span class="theme-toggle-dark none">白天</span>
+    </a></li>
   </ul>
 </nav>
 
@@ -68,59 +71,65 @@
 
 
 
-  
-  <div class="homeblock">
-    <div class="tit"><a href="/mneme-demo/article/">书籍示例</a></div> 
-    <div class="info">   
-      <span class="tagstyle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M32 448c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V160H32v288zm160-212c0-6.6 5.4-12 12-12h104c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-8zM480 32H32C14.3 32 0 46.3 0 64v48c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16V64c0-17.7-14.3-32-32-32z"/></svg>
-        
-          <a href="https://injellyfish.github.io/mneme-demo/categories/%E4%B9%A6%E7%B1%8D%E7%A4%BA%E4%BE%8B/" class="tem">书籍示例</a>
-        
-      </span>
-      <span class="tagstyle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M497.941 225.941L286.059 14.059A48 48 0 0 0 252.118 0H48C21.49 0 0 21.49 0 48v204.118a48 48 0 0 0 14.059 33.941l211.882 211.882c18.744 18.745 49.136 18.746 67.882 0l204.118-204.118c18.745-18.745 18.745-49.137 0-67.882zM112 160c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm513.941 133.823L421.823 497.941c-18.745 18.745-49.137 18.745-67.882 0l-.36-.36L527.64 323.522c16.999-16.999 26.36-39.6 26.36-63.64s-9.362-46.641-26.36-63.64L331.397 0h48.721a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882z"/></svg>
-        
-          <a href="https://injellyfish.github.io/mneme-demo/tags/%E6%96%87%E6%9C%AC%E6%B5%8B%E8%AF%95/" class="tem">文本测试</a>
-        
-      </span>
-      <span class="tagstyle">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="-webkit-transform:rotateY(180deg);"><path d="M467.14 44.84c-62.55-62.48-161.67-64.78-252.28 25.73-78.61 78.52-60.98 60.92-85.75 85.66-60.46 60.39-70.39 150.83-63.64 211.17l178.44-178.25c6.26-6.25 16.4-6.25 22.65 0s6.25 16.38 0 22.63L7.04 471.03c-9.38 9.37-9.38 24.57 0 33.94 9.38 9.37 24.6 9.37 33.98 0l66.1-66.03C159.42 454.65 279 457.11 353.95 384h-98.19l147.57-49.14c49.99-49.93 36.38-36.18 46.31-46.86h-97.78l131.54-43.8c45.44-74.46 34.31-148.84-16.26-199.36z"/></svg><a href="/mneme-demo/article/dinner/">晚餐吃什么</a>&ensp;2021-08-28
-        
-      </span>
-    </div>
-    
-    <div class="warn">文章内容仅作展示用</div>
-    
-    Hello World!
+<div class="block">
+  <div class="tit"><a href="/mneme-demo/article/">书籍示例</a></div> 
+  <div class="info">   
+    <span class="tagstyle">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M32 448c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V160H32v288zm160-212c0-6.6 5.4-12 12-12h104c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-8zM480 32H32C14.3 32 0 46.3 0 64v48c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16V64c0-17.7-14.3-32-32-32z"/></svg>
+      
+      <a href="https://injellyfish.github.io/mneme-demo/categories/%E4%B9%A6%E7%B1%8D%E7%A4%BA%E4%BE%8B/" class="tem">书籍示例</a>
+      
+    </span>
+    <span class="tagstyle">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M497.941 225.941L286.059 14.059A48 48 0 0 0 252.118 0H48C21.49 0 0 21.49 0 48v204.118a48 48 0 0 0 14.059 33.941l211.882 211.882c18.744 18.745 49.136 18.746 67.882 0l204.118-204.118c18.745-18.745 18.745-49.137 0-67.882zM112 160c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm513.941 133.823L421.823 497.941c-18.745 18.745-49.137 18.745-67.882 0l-.36-.36L527.64 323.522c16.999-16.999 26.36-39.6 26.36-63.64s-9.362-46.641-26.36-63.64L331.397 0h48.721a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882z"/></svg>
+      
+      <a href="https://injellyfish.github.io/mneme-demo/tags/%E6%96%87%E6%9C%AC%E6%B5%8B%E8%AF%95/" class="tem">文本测试</a>
+      
+    </span>
+    <span class="tagstyle">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"/></svg>
+      <a href="/mneme-demo/article/dinner/">晚餐吃什么</a>&ensp;2021-08-28
+      
+    </span>
   </div>
   
-  <div class="homeblock">
-    <div class="tit"><a href="/mneme-demo/post/">测试合集</a></div> 
-    <div class="info">   
-      <span class="tagstyle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M32 448c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V160H32v288zm160-212c0-6.6 5.4-12 12-12h104c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-8zM480 32H32C14.3 32 0 46.3 0 64v48c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16V64c0-17.7-14.3-32-32-32z"/></svg>
-        
-          <a href="https://injellyfish.github.io/mneme-demo/categories/%E6%B5%8B%E8%AF%95/" class="tem">测试</a>
-        
-      </span>
-      <span class="tagstyle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M497.941 225.941L286.059 14.059A48 48 0 0 0 252.118 0H48C21.49 0 0 21.49 0 48v204.118a48 48 0 0 0 14.059 33.941l211.882 211.882c18.744 18.745 49.136 18.746 67.882 0l204.118-204.118c18.745-18.745 18.745-49.137 0-67.882zM112 160c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm513.941 133.823L421.823 497.941c-18.745 18.745-49.137 18.745-67.882 0l-.36-.36L527.64 323.522c16.999-16.999 26.36-39.6 26.36-63.64s-9.362-46.641-26.36-63.64L331.397 0h48.721a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882z"/></svg>
-        
-          <a href="https://injellyfish.github.io/mneme-demo/tags/markdown/" class="tem">Markdown</a>
-        
-          <a href="https://injellyfish.github.io/mneme-demo/tags/text/" class="tem">text</a>
-        
-      </span>
-      <span class="tagstyle">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="-webkit-transform:rotateY(180deg);"><path d="M467.14 44.84c-62.55-62.48-161.67-64.78-252.28 25.73-78.61 78.52-60.98 60.92-85.75 85.66-60.46 60.39-70.39 150.83-63.64 211.17l178.44-178.25c6.26-6.25 16.4-6.25 22.65 0s6.25 16.38 0 22.63L7.04 471.03c-9.38 9.37-9.38 24.57 0 33.94 9.38 9.37 24.6 9.37 33.98 0l66.1-66.03C159.42 454.65 279 457.11 353.95 384h-98.19l147.57-49.14c49.99-49.93 36.38-36.18 46.31-46.86h-97.78l131.54-43.8c45.44-74.46 34.31-148.84-16.26-199.36z"/></svg><a href="/mneme-demo/post/html-test/">Html Test</a>&ensp;2021-08-28
-        
-      </span>
-    </div>
-    
-    <div class="warn">这是一条须知</div>
-    
-    这是一段描述
+  <div class="warn">文章内容仅作展示用</div>
+  
+  Hello World!
+</div>
+
+<div class="block">
+  <div class="tit"><a href="/mneme-demo/post/">测试合集</a></div> 
+  <div class="info">   
+    <span class="tagstyle">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M32 448c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V160H32v288zm160-212c0-6.6 5.4-12 12-12h104c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-8zM480 32H32C14.3 32 0 46.3 0 64v48c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16V64c0-17.7-14.3-32-32-32z"/></svg>
+      
+      <a href="https://injellyfish.github.io/mneme-demo/categories/%E6%B5%8B%E8%AF%95/" class="tem">测试</a>
+      
+    </span>
+    <span class="tagstyle">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M497.941 225.941L286.059 14.059A48 48 0 0 0 252.118 0H48C21.49 0 0 21.49 0 48v204.118a48 48 0 0 0 14.059 33.941l211.882 211.882c18.744 18.745 49.136 18.746 67.882 0l204.118-204.118c18.745-18.745 18.745-49.137 0-67.882zM112 160c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm513.941 133.823L421.823 497.941c-18.745 18.745-49.137 18.745-67.882 0l-.36-.36L527.64 323.522c16.999-16.999 26.36-39.6 26.36-63.64s-9.362-46.641-26.36-63.64L331.397 0h48.721a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882z"/></svg>
+      
+      <a href="https://injellyfish.github.io/mneme-demo/tags/markdown/" class="tem">Markdown</a>
+      
+      <a href="https://injellyfish.github.io/mneme-demo/tags/text/" class="tem">text</a>
+      
+    </span>
+    <span class="tagstyle">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"/></svg>
+      <a href="/mneme-demo/post/html-test/">Html Test</a>&ensp;2021-08-28
+      
+    </span>
   </div>
-    
+  
+  <div class="warn">这是一条须知</div>
+  
+  这是一段描述
+</div>
+  
+
 
 <div class="push"></div>
 </article>
@@ -129,6 +138,6 @@
   <div class="copyright">Theme <a href="https://github.com/injellyfish/hugo-theme-mneme">Mneme</a>丨Powered by <a href="https://gohugo.io/">Hugo</a>.</div>
   
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/drkmd-js/dist/drkmd-js.min.js"></script>
-</body>
+<script src="/mneme-demo/js/darkmode.js"></script>
+</body> 
 </html>

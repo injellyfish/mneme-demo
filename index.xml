@@ -3,7 +3,7 @@
   <channel>
     <title>Mneme</title>
     <link>https://injellyfish.github.io/mneme-demo/</link>
-    <description>Recent content on Mneme</description>
+    <description>用于中文小说写作的 Hugo 主题</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 28 Aug 2021 22:48:38 +0800</lastBuildDate><atom:link href="https://injellyfish.github.io/mneme-demo/index.xml" rel="self" type="application/rss+xml" />

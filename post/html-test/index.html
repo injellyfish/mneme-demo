@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <title>Html Test - Mneme</title>
-  <meta property="og:title" content="Html Test - Mneme">
+  <title>Html Test丨Mneme</title>
+  <meta property="og:title" content="Html Test丨Mneme">
   
   <meta name="twitter:card" content="summary">
 
@@ -36,7 +36,6 @@
   <link rel="stylesheet" href="/mneme-demo/css/fonts.css" />
 </head>
 
-
 <body class="mneme-demo">
   <header class="masthead">
     <h1><a href="/mneme-demo/">Mneme</a></h1>
@@ -50,17 +49,21 @@
     <span class="text">Menu</span>
   </label>
   <ul>
-  
-  
-  <li><a href="/mneme-demo/">书架</a></li>
-  
-  <li><a href="/mneme-demo/categories/">分类</a></li>
-  
-  <li><a href="/mneme-demo/tags/">标签</a></li>
-  
-  <li><a href="/mneme-demo/index.xml">订阅</a></li>
-  
-  <li><a style="cursor: pointer;" data-drkmd-toggle>模式</a></li>
+    
+    
+    <li><a href="/mneme-demo/">书架</a></li>
+    
+    <li><a href="/mneme-demo/categories/">分类</a></li>
+    
+    <li><a href="/mneme-demo/tags/">标签</a></li>
+    
+    <li><a href="/mneme-demo/index.xml">订阅</a></li>
+    
+    
+    <li><a style="cursor: pointer;" id="theme-toggle">
+      <span class="theme-toggle-light none">黑夜</span>
+      <span class="theme-toggle-dark none">白天</span>
+    </a></li>
   </ul>
 </nav>
 
@@ -144,7 +147,7 @@
 
 <div class="flip">
   <div style="text-align: left;">
-    «&nbsp;
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M223.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L319.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L393.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34zm-192 34l136 136c9.4 9.4 24.6 9.4 33.9 0l22.6-22.6c9.4-9.4 9.4-24.6 0-33.9L127.9 256l96.4-96.4c9.4-9.4 9.4-24.6 0-33.9L201.7 103c-9.4-9.4-24.6-9.4-33.9 0l-136 136c-9.5 9.4-9.5 24.6-.1 34z"/></svg>
     
       <a
         href="/mneme-demo/post/mt/"
@@ -158,7 +161,10 @@
     
       
       
-      -&nbsp;<a href="https://injellyfish.github.io/mneme-demo/post/">目录</a>&nbsp;-
+      <a href="https://injellyfish.github.io/mneme-demo/post/">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M80 368H16a16 16 0 0 0-16 16v64a16 16 0 0 0 16 16h64a16 16 0 0 0 16-16v-64a16 16 0 0 0-16-16zm0-320H16A16 16 0 0 0 0 64v64a16 16 0 0 0 16 16h64a16 16 0 0 0 16-16V64a16 16 0 0 0-16-16zm0 160H16a16 16 0 0 0-16 16v64a16 16 0 0 0 16 16h64a16 16 0 0 0 16-16v-64a16 16 0 0 0-16-16zm416 176H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-320H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16zm0 160H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z"/></svg>
+        目录
+      </a>
       
       
   </div>
@@ -166,7 +172,7 @@
     
       <span style="color: silver;">下一章</span>
     
-    &nbsp;»
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34zm192-34l-136-136c-9.4-9.4-24.6-9.4-33.9 0l-22.6 22.6c-9.4 9.4-9.4 24.6 0 33.9l96.4 96.4-96.4 96.4c-9.4 9.4-9.4 24.6 0 33.9l22.6 22.6c9.4 9.4 24.6 9.4 33.9 0l136-136c9.4-9.2 9.4-24.4 0-33.8z"/></svg>
     </div>
 </div>
   
@@ -180,6 +186,6 @@
   <div class="copyright">Theme <a href="https://github.com/injellyfish/hugo-theme-mneme">Mneme</a>丨Powered by <a href="https://gohugo.io/">Hugo</a>.</div>
   
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/drkmd-js/dist/drkmd-js.min.js"></script>
-</body>
+<script src="/mneme-demo/js/darkmode.js"></script>
+</body> 
 </html>

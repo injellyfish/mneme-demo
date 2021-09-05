@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>书籍示例 on Mneme</title>
+    <title>书籍示例丨Mneme</title>
     <link>https://injellyfish.github.io/mneme-demo/article/</link>
-    <description>Recent content in 书籍示例 on Mneme</description>
+    <description>用于中文小说写作的 Hugo 主题</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 28 Aug 2021 22:48:38 +0800</lastBuildDate><atom:link href="https://injellyfish.github.io/mneme-demo/article/index.xml" rel="self" type="application/rss+xml" />
